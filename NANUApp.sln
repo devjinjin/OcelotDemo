@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NANUMobileAPI", "NANUMobileAPI\NANUMobileAPI.csproj", "{31E57375-14B9-4270-BBA4-D631BAF0C2EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{3A1BCF25-41C4-444A-9701-6A777D318477}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{2AEFF0FF-B446-46D3-A00D-CFD8BED14F2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsersService", "UsersService\UsersService.csproj", "{9DCED1F5-A67C-4846-8ADF-E72A75A88495}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentsService", "PaymentsService\PaymentsService.csproj", "{12A3DF8D-761D-4AE4-BCB5-1A5BCA8303D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotDemo", "OcelotDemo\OcelotDemo.csproj", "{5ADBCA39-8404-4FDA-BC5E-E8359B2C1E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NANUApp.Models", "NANUApp.Models\NANUApp.Models.csproj", "{FADFB739-646F-4534-924C-9F4FD96794C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E57375-14B9-4270-BBA4-D631BAF0C2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E57375-14B9-4270-BBA4-D631BAF0C2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E57375-14B9-4270-BBA4-D631BAF0C2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E57375-14B9-4270-BBA4-D631BAF0C2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCED1F5-A67C-4846-8ADF-E72A75A88495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCED1F5-A67C-4846-8ADF-E72A75A88495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCED1F5-A67C-4846-8ADF-E72A75A88495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCED1F5-A67C-4846-8ADF-E72A75A88495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A3DF8D-761D-4AE4-BCB5-1A5BCA8303D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A3DF8D-761D-4AE4-BCB5-1A5BCA8303D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A3DF8D-761D-4AE4-BCB5-1A5BCA8303D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A3DF8D-761D-4AE4-BCB5-1A5BCA8303D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADBCA39-8404-4FDA-BC5E-E8359B2C1E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADBCA39-8404-4FDA-BC5E-E8359B2C1E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADBCA39-8404-4FDA-BC5E-E8359B2C1E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADBCA39-8404-4FDA-BC5E-E8359B2C1E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADFB739-646F-4534-924C-9F4FD96794C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADFB739-646F-4534-924C-9F4FD96794C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADFB739-646F-4534-924C-9F4FD96794C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADFB739-646F-4534-924C-9F4FD96794C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DCED1F5-A67C-4846-8ADF-E72A75A88495} = {2AEFF0FF-B446-46D3-A00D-CFD8BED14F2B}
+		{12A3DF8D-761D-4AE4-BCB5-1A5BCA8303D8} = {3A1BCF25-41C4-444A-9701-6A777D318477}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C116D13-4111-4294-842D-045623A9229B}
+	EndGlobalSection
+EndGlobal
